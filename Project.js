@@ -24,3 +24,13 @@ function gettingDetails(pokemonDetails,pokemonurl){
     })
 
     const moveList = document.createElement('ul')
+    pokemonMove.forEach(pokemonMoves=>{
+        //console.log(pokemonMoves)
+        const moveByPokemon = document.createElement('li')
+        moveByPokemon.textContent = `Movements: ${pokemonMoves.move.name}`
+        //console.log(moveByPokemon)
+        moveList.appendChild(moveByPokemon)
+        //console.log(moveList)
+        })
+
+        
