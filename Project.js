@@ -33,7 +33,31 @@ function gettingDetails(pokemonDetails,pokemonurl){
         //console.log(moveList)
         })
         pokemonDetails.appendChild(listAbilities)
-  pokemonDetails.appendChild(moveList)
+        pokemonDetails.appendChild(moveList)
 
   })
 }
+searchForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const searchTerm = searchInputs.value.toLowerCase();
+    const pokemonCards = document.querySelectorAll('.Pokemon');
+    if (searchTerm.trim() !== ''){
+    pokemonCards.forEach(pokemonCard => {
+    const pokemonName = pokemonCard.querySelector('h2').textContent.toLowerCase();
+    if (pokemonName.includes(searchTerm)){
+    pokemonCard.style.display = 'block';
+    }else {
+    pokemonCard.style.display = 'none';
+    }
+    });
+    }else {
+    pokemonCards.forEach(pokemonCard => {
+    pokemonCard.style.display = 'block';
+    });
+    
+    }
+    
+    searchInputs.value = '';
+    
+    });
+    
