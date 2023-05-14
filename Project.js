@@ -62,3 +62,19 @@ searchForm.addEventListener('submit', (event) => {
     });
 
     const fetchData = () => {
+        fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
+        .then(res => res.json())
+        .then(data => data.results.forEach((pokemon,index) => {
+          
+            const listOfPokemon = document.createElement('li');
+            listOfPokemon.classList.add('Pokemon');
+    
+          const pokemonName = document.createElement('h2');
+          pokemonName.textContent = pokemon.name;
+    
+          const imgPokemon = document.createElement('img');
+          const pokemonId = index + 1;
+          imgPokemon.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonId}.png`;
+    
+          //gettingAbilities(listOfPokemon,pokemon.url)
+          const pokemonButton = document.createElement('button');
