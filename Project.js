@@ -100,3 +100,4 @@ searchForm.addEventListener('submit', (event) => {
     }))
     
     };
+    fetchData()
