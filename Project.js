@@ -93,3 +93,10 @@ searchForm.addEventListener('submit', (event) => {
               pokemonButton.textContent = 'Hide Info';
             }
           });
+          listOfPokemon.appendChild(pokemonName);
+          listOfPokemon.appendChild(imgPokemon);
+          listOfPokemon.appendChild(pokemonButton);
+          pokemonList.appendChild(listOfPokemon);
+    }))
+    
+    };
