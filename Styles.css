@@ -9,3 +9,9 @@ h1
     border: 1px solid rgb(8, 8, 8);
     text-align: center;
 }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(235, 235, 237);
+}
