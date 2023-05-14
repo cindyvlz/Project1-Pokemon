@@ -79,3 +79,17 @@ searchForm.addEventListener('submit', (event) => {
           //gettingAbilities(listOfPokemon,pokemon.url)
           const pokemonButton = document.createElement('button');
           pokemonButton.textContent = 'Pokemon Info';
+
+          pokemonButton.addEventListener('click', () => {
+            let pokemonDetails = listOfPokemon.querySelector('.Pokemon-details');
+            if (pokemonDetails) {
+              pokemonDetails.remove(); // Remove the details element if it already exists
+              pokemonButton.textContent = 'Pokemon Info';
+            } else {
+              pokemonDetails = document.createElement('div');
+              pokemonDetails.classList.add('Pokemon-details');
+              gettingDetails(pokemonDetails, pokemon.url);
+              listOfPokemon.appendChild(pokemonDetails);
+              pokemonButton.textContent = 'Hide Info';
+            }
+          });
