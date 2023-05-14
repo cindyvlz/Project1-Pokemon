@@ -60,4 +60,5 @@ searchForm.addEventListener('submit', (event) => {
     searchInputs.value = '';
     
     });
-    
+
+    const fetchData = () => {
