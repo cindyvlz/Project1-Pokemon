@@ -32,5 +32,8 @@ function gettingDetails(pokemonDetails,pokemonurl){
         moveList.appendChild(moveByPokemon)
         //console.log(moveList)
         })
+        pokemonDetails.appendChild(listAbilities)
+  pokemonDetails.appendChild(moveList)
 
-        
+  })
+}
