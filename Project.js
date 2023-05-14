@@ -78,3 +78,4 @@ searchForm.addEventListener('submit', (event) => {
     
           //gettingAbilities(listOfPokemon,pokemon.url)
           const pokemonButton = document.createElement('button');
+          pokemonButton.textContent = 'Pokemon Info';
