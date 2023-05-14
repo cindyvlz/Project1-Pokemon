@@ -10,3 +10,16 @@ function gettingDetails(pokemonDetails,pokemonurl){
           .then(data => {
               const pokemonAbilities = data.abilities
               const pokemonMove = data.moves.slice(0, 3)
+    //console.log(pokemonMoves)
+    //console.log(pokemonAbilities)
+  
+    //create a list to store abilities
+              const listAbilities = document.createElement('ul')
+              pokemonAbilities.forEach(ability => {
+              const abilityByPokemon = document.createElement('li')
+              abilityByPokemon.textContent = `Abilities: ${ability.ability.name}`
+    //console.log(abilityByPokemon)
+  
+              listAbilities.appendChild(abilityByPokemon)
+    //console.log(listAbilities)
+    })
