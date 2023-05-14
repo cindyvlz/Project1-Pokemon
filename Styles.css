@@ -36,3 +36,8 @@ h1
     padding: 10px;
     text-align: center;
 }
+#searchInput {
+    width: 700px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
