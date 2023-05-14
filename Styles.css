@@ -52,3 +52,6 @@ button {
     font-style: italic;
     width: 100px;
 }
+button:hover {
+    background-color: green;
+}
