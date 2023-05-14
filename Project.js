@@ -19,7 +19,8 @@ function gettingDetails(pokemonDetails,pokemonurl){
               const abilityByPokemon = document.createElement('li')
               abilityByPokemon.textContent = `Abilities: ${ability.ability.name}`
     //console.log(abilityByPokemon)
-  
               listAbilities.appendChild(abilityByPokemon)
     //console.log(listAbilities)
     })
+
+    const moveList = document.createElement('ul')
