@@ -28,7 +28,8 @@ Usage
 Type the name of a Pokemon into the search bar and press the "Search" button
 Click on a Pokemon from the search results to view its details
 Click the "Pokemon Info" button to toggle additional information about the selected Pokemon
-Customize the font and background color using the provided options
+and then you can click "hide info" to hide the info of the Pokemon selected. 
+You can get the info of about 150+ Pokemons with their moves and abilities. 
 
 Contributing
 
