@@ -20,7 +20,7 @@ Customizable font and background color
 
 Installation
 
-Clone the repository: git clone https://github.com/your-username/my-pokemon-app.git
+Clone the repository: git clone https://github.com/cindyvlz/my-pokemon-app.git
 Open index.html in your web browser
 
 Usage
