@@ -1,29 +1,29 @@
 # Project1-Pokemon
 This project will show you some Pokemon cards where you can see their abilities and moves. You will be able to go through each pokemon and even search for individual pokemon of your preference.
 
-My Pokemon App
+## My Pokemon App
 
 Welcome to My Pokemon App! This is a simple web application that allows you to search for Pokemon by name and view their details.
 
-Technologies Used
+## Technologies Used
 
 HTML
 CSS
 JavaScript
 
-Features
+## Features
 
 Search for Pokemon by name
 View detailed information about a selected Pokemon
 Hide and show additional information about a Pokemon
 Customizable font and background color
 
-Installation
+## Installation
 
 Clone the repository: git clone https://github.com/cindyvlz/my-pokemon-app.git
 Open index.html in your web browser
 
-Usage
+## Usage
 
 Type the name of a Pokemon into the search bar and press the "Search" button
 Click on a Pokemon from the search results to view its details
@@ -31,12 +31,12 @@ Click the "Pokemon Info" button to toggle additional information about the selec
 and then you can click "hide info" to hide the info of the Pokemon selected. 
 You can get the info of about 150+ Pokemons with their moves and abilities. 
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you have any ideas for features or improvements, feel free to submit a pull request or open an issue.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 This project was inspired by the Pokedex.org website.
